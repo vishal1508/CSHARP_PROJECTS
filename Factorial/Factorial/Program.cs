@@ -8,7 +8,7 @@ namespace Factorial
 {
     class Calculator
     {
-        public static long FactorialOf(int n)
+        public static long FactorialOf(int nn)
         {
             int fact = 1;
 
