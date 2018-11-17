@@ -8,14 +8,14 @@ namespace Factorial
 {
     public class Calculator
     {
-        public static long FactorialOf(int n)
+        public static long FactorialOf(int num)
         {
             int fact = 1;
 
-            while (n > 0)
+            while (num > 0)
             {
-                fact = fact * n;
-                n--;
+                fact = fact * num;
+                num--;
             }
 
             return fact;
