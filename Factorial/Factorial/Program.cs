@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Factorial
 {
-    class Calculator
+    public class Calculator
     {
-        public static long FactorialOf(int nn)
+        public static long FactorialOf(int n)
         {
             int fact = 1;
 
